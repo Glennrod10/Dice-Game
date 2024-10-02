@@ -8,6 +8,8 @@ import Contact from './component/Contact'
 import NotFound from './component/NotFound'
 import StartGame from './component/dice game/StartGame'
 import GamePlay from './component/dice game/GamePlay'
+import ContactBook from './component/contactBook/ContactBook'
+
 
 const Path = () => {
   return (
@@ -21,6 +23,7 @@ const Path = () => {
         <Route path="play" element={<GamePlay />} />
         <Route path="register" element={<Register />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="contact-book" element={<ContactBook />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
