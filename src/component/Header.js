@@ -14,7 +14,7 @@ export function Header(){
 
   const headerMenu = [
     {name: 'Dice Game' , link : 'dice'},
-    {name: 'Location' , link : 'location'},
+    {name: 'Contact Book' , link : 'contact-book'},
     {name: 'About' , link : 'about'},
     {name: 'Contact' , link : 'contact'},
   ]
